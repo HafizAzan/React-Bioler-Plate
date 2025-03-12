@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  list-style: none;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  overflow-x: hidden;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  cursor: auto;
+  transition: all 400ms ease;
+  user-select: auto;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
